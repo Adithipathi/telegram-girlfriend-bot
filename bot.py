@@ -70,8 +70,8 @@ def send_auto_message(prompt_text):
 
 def main():
     global telegram_app
-    # Your Telegram Bot Token
-    telegram_app = ApplicationBuilder().token("8839962404:AAHJ0ka9MwTeK_FfRsJsI1nOZrK-mPP5Qbo").build()
+    # Your NEW Clean Telegram Bot Token
+    telegram_app = ApplicationBuilder().token("8713720358:AAFjnUZbBzmousy-6xRz9Y4E0eUepZhhMb4").build()
 
     telegram_app.add_handler(MessageHandler(filters.TEXT & (~filters.COMMAND), handle_message))
 
@@ -96,3 +96,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    
